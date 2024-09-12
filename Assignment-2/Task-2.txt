@@ -1,0 +1,8 @@
+# Install SpaCy and SciSpaCy models
+pip3 install spacy scispacy
+pip3 install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/en_core_sci_sm-0.4.0.tar.gz
+pip3 install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/en_ner_bc5cdr_md-0.4.0.tar.gz
+
+# Install Hugging Face Transformers and BioBERT
+pip3 install transformers
+pip3 install torch
